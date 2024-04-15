@@ -91,6 +91,10 @@ module.exports = {
       //  },
       //  evmVersion: "byzantium"
       // }
+    },
+    browserSync: {
+      // Other BrowserSync options...
+      open: false
     }
   },
 
