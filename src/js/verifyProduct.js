@@ -68,7 +68,18 @@ App = {
                 tr+="</tr>";
                 t+=tr;
 
+                var ele=document.getElementById('logdata');
                 document.getElementById('logdata').innerHTML = t;
+                ele.style.fontWeight="bold";
+                if(result)
+                {
+                    ele.style.color="green";
+                }
+                else
+                {
+                    ele.style.color="red";
+                }
+                
                 document.getElementById('add').innerHTML=account;
            }).catch(function(err){
                console.log(err.message);

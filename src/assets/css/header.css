@@ -3,7 +3,9 @@
 Header Style
 --------------------------------------------- 
 */
-
+thead{
+  background-color: #524baa;
+}
 .background-header {
     background-color: #fff !important;
     height: 70px!important;
